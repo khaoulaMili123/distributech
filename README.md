@@ -123,7 +123,7 @@ Lancer le pipeline ETL:
 ├── README.md
 
 ├── bdd
-│   
+
 │   └── docker-compose.yml
 
 ├── data
@@ -133,24 +133,8 @@ Lancer le pipeline ETL:
 │   ├── commande_revendeur_tech_express.csv
 
 │   ├── db_stock.
-│  
-│   └── transform
 
-│       ├── commandes_produits_transforme.csv
-
-│       ├── commandes_transforme.csv
-
-│       ├── paniers_transforme.csv
-
-│       ├── productions_transforme.csv
-
-│       ├── produits_transforme.csv
-
-│       ├── regions_transforme.csv
-
-│       ├── revendeurs_transforme.csv
-
-│       └── stock_disponible.csv
+│   └── transform        #Fichiers CSV transformées 
 
 ├── requirements.txt
 
