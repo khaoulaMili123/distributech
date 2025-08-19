@@ -75,12 +75,11 @@ Avant d’installer le projet, vous devez avoir :
 
 **Cloner le projet :**
 
-```bash
 git clone https://github.com/khaoulaMili123/distributech
 cd distributech
 
-**Créer un environnement virtuel et installer les dépendances :**
-```bash
+Créer un environnement virtuel et installer les dépendances :
+
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
