@@ -13,8 +13,11 @@ README — Mini-projet ETL Distributech🚀
 7) Schéma d’architecture
 8) Visuel du frontend
 9) Licence
+    
                  ____________________________________________________________________
+   
 📖 Description du projet
+
 
 Ce projet consiste en la création d’un pipeline ETL (Extraction, Transformation, Chargement) pour Distributech, un grossiste en équipements électroniques.
 L’objectif principal est de centraliser, transformer et charger les données provenant de différentes sources (SQLite, CSV) vers une base de données MySQL, afin de :
@@ -22,7 +25,9 @@ L’objectif principal est de centraliser, transformer et charger les données p
 -Suivre les ventes et productions,
 -Calculer le stock disponible en temps réel,
 -Améliorer la prise de décision grâce à des données consolidées.
+
                  ____________________________________________________________________
+                 
 ⚡ Fonctionnalités
 
 1) Extraction depuis SQLite et fichiers CSV.
@@ -35,7 +40,9 @@ L’objectif principal est de centraliser, transformer et charger les données p
     -Suivi du stock (suivi_stock)
 
 3) Chargement des données dans MySQL .
+   
                  ____________________________________________________________________
+   
 
 🛠️ Pré-requis
 Avant d’installer le projet, vous devez avoir :
@@ -44,7 +51,9 @@ Avant d’installer le projet, vous devez avoir :
     SQLite 3
     pip et virtualenv (optionnel mais recommandé)
     Fichier .env 
+    
                  ____________________________________________________________________
+                 
 💻 Technologies et langages utilisés
 
     Python 3 (ETL)
@@ -55,7 +64,9 @@ Avant d’installer le projet, vous devez avoir :
     MySQL → base de données cible
     SQLite → base source (données initiales)
     Git / GitHub → gestion de version
+    
                  _____________________________________________________________________
+                 
 
 🚀 Guide d’installation
 
@@ -81,14 +92,22 @@ Lancer le pipeline ETL:
 📂 Structure du projet :
 
 etl_pipeline/
+
 │
 ├── extraire_donnee/       # Scripts d'extraction
+
 ├── transformation/        # Scripts de transformation
+
 │   └── transform_all
+
 │   └── suivi_stock 
+
 ├── load/                  # Scripts de chargement 
+
 ├── bdd_creat/             # Création de base des données sur MySql
+
 └── main.py                # Orchestrateur du pipeline ETL
+
 
 📜 Licence
 
