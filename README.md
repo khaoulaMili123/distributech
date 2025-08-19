@@ -149,5 +149,7 @@ Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier
 Créateurs du projets: 
 
 [Khaoula MILI](https://github.com/khaoulaMili123)
+
 [Hugo Babin](https://github.com/hugobabin)
+
 [Corto Gayet](https://github.com/CortoGyt)
