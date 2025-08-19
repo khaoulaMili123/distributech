@@ -1,5 +1,8 @@
 # Distributech
 README — Mini-projet ETL Distributech🚀
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8+-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
                *********
                
 📑 Table des matières
