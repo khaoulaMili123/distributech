@@ -138,7 +138,7 @@ cd distributech
 
 Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier et le distribuer, sous réserve de conserver les crédits d’auteur.
 
-👩‍💻 ##Créateurs du projet
+👩‍💻 ##Créateurs du projet##
 
 - [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
 - 
