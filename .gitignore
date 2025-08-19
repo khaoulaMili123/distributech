@@ -1,0 +1,17 @@
+# Ignorer les bases de données locales
+bdd/db/
+
+# Environnements virtuels Python
+.dtvenv/
+.venv/
+env/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Variables d'environnement
+*.env
