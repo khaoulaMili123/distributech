@@ -1,5 +1,5 @@
 # Ignorer les bases de données locales
-bdd/db/
+bdd/
 
 # Environnements virtuels Python
 .dtvenv/
