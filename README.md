@@ -108,25 +108,7 @@ etl_pipeline/
 
 └── main.py                # Orchestrateur du pipeline ETL
 
-<<<<<<< HEAD
 =======
-🏗️ Schéma d’architecture
-flowchart LR
-    subgraph Source
-        A[SQLite: base_stock.sqlite] --> B(Extraction)
-        C[CSV: commandes] --> B
-    end
-
-    B --> D[Transformation (nettoyage, calculs)]
-    D --> E[CSV transformés]
-
-    E --> F[Chargement MySQL]
-    F --> G[(Base de données MySQL distributech)]
-
-    G --> H[Procédures & Triggers: suivi stock, CA]
-    H --> I[Frontend (Tableau de bord / Reporting)]
-
->>>>>>> e9a010b (readme)
 
 📜 Licence
 
@@ -134,9 +116,8 @@ Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier
 <<<<<<< HEAD
 =======
 
-Créateurs du projets 
+Créateurs du projets: 
 
 [Khaoula MILI](https://github.com/khaoulaMili123)
 [Hugo Babin](https://github.com/hugobabin)
 [Corto Gayet](https://github.com/CortoGyt)
->>>>>>> e9a010b (readme)
