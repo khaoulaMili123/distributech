@@ -120,7 +120,41 @@ Lancer le pipeline ETL:
 
 📂 Structure du projet :
 
-etl_pipeline/
+├── README.md
+
+├── bdd
+│   
+│   └── docker-compose.yml
+
+├── data
+
+│   ├── base_stock.sqlite
+
+│   ├── commande_revendeur_tech_express.csv
+
+│   ├── db_stock.
+│  
+│   └── transform
+
+│       ├── commandes_produits_transforme.csv
+
+│       ├── commandes_transforme.csv
+
+│       ├── paniers_transforme.csv
+
+│       ├── productions_transforme.csv
+
+│       ├── produits_transforme.csv
+
+│       ├── regions_transforme.csv
+
+│       ├── revendeurs_transforme.csv
+
+│       └── stock_disponible.csv
+
+├── requirements.txt
+
+├──etl_pipeline/
 
 │
 ├── extraire_donnee/       # Scripts d'extraction
