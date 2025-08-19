@@ -23,8 +23,11 @@ Ce projet consiste en la création d’un pipeline ETL (Extraction, Transformati
 L’objectif principal est de centraliser, transformer et charger les données provenant de différentes sources (SQLite, CSV) vers une base de données MySQL, afin de :
 
 -Suivre les ventes et productions,
+
 -Calculer le stock disponible en temps réel,
+
 -Améliorer la prise de décision grâce à des données consolidées.
+
 
                  ____________________________________________________________________
                  
@@ -53,10 +56,15 @@ L’objectif principal est de centraliser, transformer et charger les données p
 
 🛠️ Pré-requis
 Avant d’installer le projet, vous devez avoir :
+
     Python 3.10+
+    
     MySQL 8+
+    
     SQLite 3
+    
     pip et virtualenv (optionnel mais recommandé)
+    
     Fichier .env 
     
                  ____________________________________________________________________
@@ -64,12 +72,19 @@ Avant d’installer le projet, vous devez avoir :
 💻 Technologies et langages utilisés
 
     Python 3 (ETL)
+    
     pandas → manipulation des données
+    
     mysql.connector → connexion MySQL
+    
     sqlite3 → connexion SQLite
+    
     dotenv → gestion des variables d’environnement
+    
     MySQL → base de données cible
+    
     SQLite → base source (données initiales)
+    
     Git / GitHub → gestion de version
     
                  _____________________________________________________________________
@@ -78,20 +93,27 @@ Avant d’installer le projet, vous devez avoir :
 🚀 Guide d’installation
 
 Cloner le projet:
+
     git clone https://github.com/khaoulaMili123/distributech
+    
     cd DISTRIBUTECH 
                 
 Créer un environnement virtuel et installer les dépendances:
 
     python -m venv venv
+    
     source venv/bin/activate   # Linux / Mac
+    
     venv\Scripts\activate      # Windows
+    
     pip install -r requirements.txt
 
 Créer la base MySQL:
+
     python bdd_creat.py
 
 Lancer le pipeline ETL:
+
     python main.py
 
 🛠️ Guide de développement
@@ -118,6 +140,7 @@ etl_pipeline/
 =======
 
 📜 Licence
+
 
 Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier et le distribuer, sous réserve de conserver les crédits d’auteur.
 
