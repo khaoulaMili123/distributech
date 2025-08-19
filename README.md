@@ -78,53 +78,73 @@ Avant d’installer le projet, vous devez avoir :
 git clone https://github.com/khaoulaMili123/distributech
 cd distributech
 
-Créer un environnement virtuel et installer les dépendances :
+##Créer un environnement virtuel et installer les dépendances :
 
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
+   -python -m venv venv
+   
+   -source venv/bin/activate   # Linux / Mac
+   
+   -venv\Scripts\activate      # Windows
+   
+   -pip install -r requirements.txt
 
-Créer la base MySQL :
+##Créer la base MySQL :
 
-python bdd_creat.py
+   python bdd_creat.py
 
 
-Lancer le pipeline ETL :
+##Lancer le pipeline ETL :
 
-python main.py
+   python main.py
 
-🛠️ Guide de développement
+🛠️ ##Guide de développement
 
-Structure du projet :
-
+##Structure du projet :
+```
 📂 distributech/
-├── README.md
-├── bdd/docker-compose.yml
-├── data/
-│   ├── base_stock.sqlite
-│   ├── commande_revendeur_tech_express.csv
-│   └── transform/        # Fichiers CSV transformés
-├── requirements.txt
-├── etl_pipeline/
-│   ├── extraire_donnee/  # Scripts d'extraction
-│   ├── transformation/   # Scripts de transformation
-│   │   ├── transform_all
-│   │   └── suivi_stock
-│   └── load/             # Scripts de chargement
-├── bdd_creat/            # Création de la base MySQL
-└── main.py               # Orchestrateur du pipeline ETL
 
-📜 Licence
+├── README.md
+
+├── bdd/docker-compose.yml
+
+├── data/
+
+│   ├── base_stock.sqlite
+
+│   ├── commande_revendeur_tech_express.csv
+
+│   └── transform/        # Fichiers CSV transformés
+
+├── requirements.txt
+
+├── etl_pipeline/
+
+│   ├── extraire_donnee/  # Scripts d'extraction
+
+│   ├── transformation/   # Scripts de transformation
+
+│   │   ├── transform_all
+
+│   │   └── suivi_stock
+
+│   └── load/             # Scripts de chargement
+
+├── bdd_creat/            # Création de la base MySQL
+
+└── main.py               # Orchestrateur du pipeline ETL
+```
+
+📜##Licence
 
 Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier et le distribuer, sous réserve de conserver les crédits d’auteur.
 
-👩‍💻 Créateurs du projet
+👩‍💻 ##Créateurs du projet
 
-Khaoula MILI
-
-Hugo Babin
-
-Corto Gayet
+- [Khaoula MILI](https://www.linkedin.com/in/hugo-babin-878451239/)
+- 
+- [Hugo BABIN](https://www.linkedin.com/in/khaoula-mili/)
+- 
+- [Corto GAYET](https://www.linkedin.com/in/corto-gayet-246aa32b3/)
+- 
 
 
