@@ -80,7 +80,7 @@ git clone https://github.com/khaoulaMili123/distributech
 cd distributech
 
 **Créer un environnement virtuel et installer les dépendances :**
-
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
