@@ -32,14 +32,21 @@ L’objectif principal est de centraliser, transformer et charger les données p
 
 1) Extraction depuis SQLite et fichiers CSV.
 2) Transformation des données :
+   
     -Nettoyage et suppression des doublons
+   
     -Conversion des dates
+   
     -Calcul du total_ligne par commande
+   
     -Calcul du total_panier
+   
     -Génération de la table produits_commandes
+   
     -Suivi du stock (suivi_stock)
+   
 
-3) Chargement des données dans MySQL .
+4) Chargement des données dans MySQL .
    
                  ____________________________________________________________________
    
@@ -113,7 +120,7 @@ etl_pipeline/
 📜 Licence
 
 Ce projet est sous licence MIT – vous êtes libre de l’utiliser, le modifier et le distribuer, sous réserve de conserver les crédits d’auteur.
-<<<<<<< HEAD
+
 =======
 
 Créateurs du projets: 
